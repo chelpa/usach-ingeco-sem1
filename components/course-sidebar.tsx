@@ -26,14 +26,14 @@ interface CourseSidebarProps {
 }
 
 const courses = [
-  { id: "mathematics", name: "Mathematics", icon: Calculator, count: 24 },
-  { id: "physics", name: "Physics", icon: Beaker, count: 18 },
-  { id: "computer-science", name: "Computer Science", icon: Code, count: 32 },
-  { id: "literature", name: "Literature", icon: Book, count: 15 },
-  { id: "history", name: "History", icon: Globe, count: 21 },
-  { id: "art", name: "Art & Design", icon: Palette, count: 12 },
-  { id: "medicine", name: "Medicine", icon: Heart, count: 28 },
-  { id: "law", name: "Law", icon: Scale, count: 19 },
+  { id: "mathematics-i", name: "Matemáticas I", icon: Calculator, count: 24 },
+  { id: "administration-i", name: "Intro. Administración", icon: Beaker, count: 18 },
+  { id: "computer-science-i", name: "Computación I", icon: Code, count: 32 },
+  { id: "literature-i", name: "Comunicación I", icon: Book, count: 15 },
+  { id: "ethics-rse", name: "Ética y RSE", icon: Globe, count: 21 },
+  { id: "economy-i", name: "Intro. Economía", icon: Palette, count: 12 },
+  { id: "medicine", name: "Personal", icon: Heart, count: 28 },
+  { id: "contability", name: "Contabilidad I", icon: Scale, count: 19 },
 ]
 
 export function CourseSidebar({
